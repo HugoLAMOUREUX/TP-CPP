@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/baleine.h
+mammifere.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/mammifere.h
+
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/mammifere.h
+string
+-
+
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/planete.cpp
+string
+-
+iostream
+-
+planete.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/planete.h
+baleine.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/baleine.h
+ratel.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/ratel.h
+time.h
+-
+random
+-
+
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/planete.h
+mammifere.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/mammifere.h
+list
+-
+
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/ratel.h
+mammifere.h
+C:/Users/hugol/Desktop/Documents/Superieur/INFO/4A/CPP/TP/TP4/mammifere.h
+
