@@ -12,12 +12,12 @@ class Mammifere{
 private:
     int age;
     int poids;
-    string mode;
+    //string mode;
 public:
     int getAge()const;
     int getPoids()const;
-    string getMode()const;
-    Mammifere(int age, int poids, string mode);
+    virtual string getMode()const;
+    Mammifere(int age, int poids);
     virtual ~Mammifere()=default;
     virtual void crier()const=0;
 };

@@ -10,7 +10,9 @@
 class Baleine : public Mammifere {
 public:
     Baleine(int age, int poids);
-    void crier()const;
+    void crier()const override;
+    virtual string getMode()const;
+
 
 };
 

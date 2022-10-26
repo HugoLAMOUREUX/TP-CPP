@@ -4,13 +4,12 @@
 
 #include "mammifere.h"
 #include <string>
-#include <stdlib.h>
+#include <stdlib.h> //.h entre <> c'est du C et sans .h c'est cpp
 using std::string;
 
-Mammifere::Mammifere(int age, int poids, string mode){
+Mammifere::Mammifere(int age, int poids){
     this->age=age;
     this->poids=poids;
-    this->mode=mode;
 }
 
 int Mammifere::getAge()const {
@@ -20,5 +19,5 @@ int Mammifere::getPoids()const {
     return poids;
 }
 string Mammifere::getMode()const {
-    return mode;
+    return "marcher";
 }

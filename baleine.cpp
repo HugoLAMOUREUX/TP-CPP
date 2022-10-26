@@ -6,10 +6,14 @@
 using std::cout;
 using std::endl;
 
-Baleine::Baleine(int age, int poids): Mammifere(age,poids,"nager"){
+Baleine::Baleine(int age, int poids): Mammifere(age,poids){
 }
 
 void Baleine::crier() const {
     cout<<"Je chante";
+}
+
+string Baleine::getMode() const {
+    return "nager";
 }
 

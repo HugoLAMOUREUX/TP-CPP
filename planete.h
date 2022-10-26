@@ -7,16 +7,20 @@
 
 #include "mammifere.h"
 #include <list>
+#include <memory>
+
 using std::list;
 
 class Planete {
 private:
-    list<Mammifere*> habitants;
+    //list<Mammifere*> habitants;
+    list<std::unique_ptr<Mammifere>> habitants;
 public:
     Planete(int size);
-    int population();
+   // Planete(const Planete&)=delete;
+    int population() const;
     double ageMoyen () const;
-    double poidsMoyenBaleine();
+    double poidsMoyenBaleine() const;
     void tue_le_doyen();
 
 };

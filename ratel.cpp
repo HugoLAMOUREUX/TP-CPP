@@ -7,7 +7,7 @@
 using std::cout;
 using std::endl;
 
-Ratel::Ratel(int age, int poids): Mammifere(age,poids,"marcher"){
+Ratel::Ratel(int age, int poids): Mammifere(age,poids){
 }
 
 void Ratel::crier()const{
